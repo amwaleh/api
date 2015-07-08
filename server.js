@@ -16,5 +16,6 @@ app.use('/api',require('./routes/api'))
 
 
 //start server
+var port=Number(process.env.PORT|| 3000);
 app.listen(3000);
 console.log('we running on port 3000');
