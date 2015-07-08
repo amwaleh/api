@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta content="application/json">
+	<meta charset="UTF-8">
+	<title>Restaurant APPi</title>
+	<script scr='/routes/api.js'></script>
+</head>
+<body>
+
+<form action="http://localhost:3000/api/products" method='post' onsubmit="pushdata()">
+	
+	<li>Name 
+<input type="text" id='name' name='name'>
+	</li>
+<li>
+	description
+	<input type="text"  id= 'description' name='description'>
+
+
+</li>
+
+<li>
+	price
+	<input type="text"  id='price' name='price'>
+
+</li>
+<input type="submit" value= send>
+
+</form>
+<script>
+	function pushdata(){
+var name= document.getElementById('name');
+var description = document.getElementById('description');
+var price = document.getElementById('price');
+
+
+
+	}
+
+
+</script>
+	
+</body>
+</html>
