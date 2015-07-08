@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/mwalex/api.git"
   },
-  "author": "",
+  "author": "mwalex",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mwalex/api/issues"
