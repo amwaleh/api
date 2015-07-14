@@ -11,7 +11,7 @@ var mongoose= require ('mongoose');
 var bodyParser = require ('body-parser');
 
 //mongodb
-mongoose.connect('mongodb://alexmuturi@gmail.com:dream20y@ds047720.mongolab.com:47720/rest');
+mongoose.connect('mongodb://ds047720.mongolab.com:47720/rest');
 
 //express
 var app = express();
